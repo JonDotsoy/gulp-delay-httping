@@ -3,6 +3,9 @@
   "version": "1.0.0-alpha.0",
   "description": "Wait for this ready request before continuing.",
   "main": "index.js",
+  "engine": {
+    "node": ">= 6.9.1"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
