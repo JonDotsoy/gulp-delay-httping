@@ -9,7 +9,7 @@ This is useful, if:
 ```javascript
 gulp.task("myTask", () =>
   gulp.src(["to-transform-web/**/*"]).
-  pipe(request("gulp-delay-request")({
+  pipe(require("gulp-delay-request")({
     url: "http://my-transform-web/"
   })).
   pipe(request("plugint-to-tansform-by-web"))
@@ -18,7 +18,7 @@ gulp.task("myTask", () =>
 
 ### Example 2
 ```javascript
-gulp.task("delay-web", () => request("gulp-delay-request")({
+gulp.task("delay-web", () => require("gulp-delay-request")({
   url: "http://delay-ping-web/"
 }));
 
