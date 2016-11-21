@@ -1,6 +1,8 @@
 # Gulp Delay Request
 
 [![dependencies Status](https://david-dm.org/JonDotsoy/gulp-delay-request/status.svg)](https://david-dm.org/JonDotsoy/gulp-delay-request)
+[![npm](https://img.shields.io/npm/v/gulp-delay-request.svg)](https://www.npmjs.com/package/gulp-delay-request)
+[![npm](https://img.shields.io/npm/l/gulp-delay-request.svg)](https://www.npmjs.com/package/gulp-delay-request)
 
 Wait for this ready request before continuing.
 
@@ -15,7 +17,7 @@ gulp.task("myTask", () =>
   pipe(require("gulp-delay-request")({
     url: "http://my-transform-web/"
   })).
-  pipe(request("plugint-to-tansform-by-web"))
+  pipe(request("plugin-to-tansform-by-web"))
 );
 ```
 
