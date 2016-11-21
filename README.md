@@ -1,4 +1,7 @@
 # Gulp Delay Request
+
+[![dependencies Status](https://david-dm.org/JonDotsoy/gulp-delay-request/status.svg)](https://david-dm.org/JonDotsoy/gulp-delay-request)
+
 Wait for this ready request before continuing.
 
 ## What?

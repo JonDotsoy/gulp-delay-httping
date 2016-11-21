@@ -1,6 +1,6 @@
 {
   "name": "gulp-delay-request",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Wait for this ready request before continuing.",
   "main": "index.js",
   "engine": {
